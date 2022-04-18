@@ -1,0 +1,1 @@
+# uib-typography-fontawesome
