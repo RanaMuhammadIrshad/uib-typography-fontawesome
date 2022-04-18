@@ -1,0 +1,76 @@
+* {
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+}
+
+.info::before,
+.info::after {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 3rem;
+  margin: 10px;
+  color: black;
+}
+
+.h1::before,
+.h1::after {
+  content: "\f5d2";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.p1::before {
+  content: "\f83e";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+.p2::before {
+  content: "\f091";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+.p3::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f666";
+}
+.media-links-1::after {
+  content: "\f58c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+
+  margin-left: 20px;
+}
+.media-links-2::after {
+  content: "\f118";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+
+  margin-left: 20px;
+}
+.media-links-3::after {
+  content: "\f580";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+
+  margin-left: 20px;
+}
+
+h1,
+h3,
+ul,
+li {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
